@@ -11,7 +11,6 @@
 
     int main(){
 
-
     }
 
     int readFile(const std::string& fileInput){
@@ -27,6 +26,6 @@
 
     std::vector<int> getBraille(const std::string& line){
         
-        
+
     }
 

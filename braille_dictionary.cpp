@@ -72,10 +72,10 @@ std::unordered_map<char, std::vector<std::vector<int>>> braille_dictionary = {
 
 
 int main(){
-    printBrailleLetter('a');
-    printBrailleLetter('b');
-    printBrailleLetter('A');
-    printBrailleWord("hello");
+    std::cout << "Type a word: " << std::endl;
+    std::string x;
+    std::cin >> x;
+    std::cout << printBrailleWord(x);
 }
 
 int printBrailleLetter(char letter){

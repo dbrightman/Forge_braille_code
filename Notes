@@ -1,1 +1,24 @@
-What do I want as output?
+Documentation:
+
+1/28/26:
+    * Created initial dictionary of basic words
+    * Developed basic functionality of function
+    * Able to print out any letter or word that is input
+
+    next:
+    * Going through lines of a file and output it as braille
+    * Brainstorm ideas:
+        * how to make it scroll across
+        * how to keep history of the lines
+        * going forward and backwards in lines of the text file
+    * Big brainstorm: How to turn PDF to text file easily
+
+    General:
+    * figuring out PDF to text file
+    * connecting
+    * Part Speccing the Arduino
+	* PDF -> text file
+	* Text to a dictionary for braille lettering
+	* Flow Chart
+
+
