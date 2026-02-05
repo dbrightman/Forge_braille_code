@@ -71,11 +71,20 @@ std::unordered_map<char, std::vector<std::vector<int>>> braille_dictionary = {
 };
 
 
-int main(){
-    std::cout << "Type a word: " << std::endl;
-    std::string x;
-    std::cin >> x;
-    std::cout << printBrailleWord(x);
+// int main(){
+//     std::cout << "Type a word: " << std::endl;
+//     std::string x;
+//     std::cin >> x;
+//     std::cout << printBrailleWord(x);
+// }
+
+std::vector<std::vector<int>> getBraillePattern(char letter){
+    if (braille_dictionary.find(letter) != braille_dictionary.end()){
+        return braille_dictionary[letter];
+    }
+    else {
+        return {{0},{0,0},{0,0},{0,0}};
+    }
 }
 
 int printBrailleLetter(char letter){
