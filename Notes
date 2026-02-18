@@ -22,4 +22,13 @@ Documentation:
 	* Flow Chart
 
 
-2/3/26:
+2/4/26:
+    * Commented out main function in braille_dictionary
+    * Created getLine Function to get each line from a specific byte location until the cells are filled
+    
+
+2/17/26:
+    * Input from function to Arduino:
+        * array of integers either 1 or 0, could be bool also
+    * 
+
